@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking</title>
+    <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="index">
+    <h1 id="titulo">Breaking Bad – Que comience el juego!</h1>
+</body>
+<div>
+    <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend>Datos personales:</legend>
+            <input type="text" name="nombre" id="" placeholder="Nombre" required>
+            <input type="text" name="apellidos" id="" placeholder="Apellidos" required>
+            <input type="text" name="dni" id="" placeholder="DNI">
+            <input type="email" name="email" id="" placeholder="Correo Electrónico" required>
+            <br>
+            <br><input type="radio" name="sexo" id="" value="Mujer"><label for="">Mujer</label>
+            <input type="radio" name="sexo" id="" value="Hombre"><label for="">Hombre</label>
+            <br><label for="fecha">Fecha de nacimiento: </label><input type="date" name="fechanacimiento" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Dirección:</legend>
+            <input type="text" name="calle" id="" placeholder="Calle">
+            <input type="number" name="numero" id="" placeholder="Número">
+            <input type="text" name="piso" id="" placeholder="Piso">
+            <input type="number" name="cogido_postal" id="" placeholder="Código postal">
+            <input type="text" name="ciudad" id="" placeholder="Ciudad">
+        </fieldset>
+        <fieldset>
+            <legend>Selección de personajes</legend>
+            <select name="personajes" id="">
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="5">Otros personajes</option>
+            </select>
+        </fieldset>
+        <textarea name="comentarios" id="" cols="30" rows="10" minlength="5" maxlength="240"
+            placeholder="Escribe aquí un comentario acerca de la serie..."></textarea>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Eliminar">
+        <input type="file" name="file" id="" value="Adjuntar Archivos" multiple>
+</div>
+
+</html>

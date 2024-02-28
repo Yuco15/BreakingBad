@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "brakingFont";
+  src: url(font/BreakingBad.ttf);
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica;
+}
+#index {
+  background-image: url(img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#logo {
+  width: 200px;
+  height: 200px;
+}
+#poster {
+  width: 700px;
+  height: 300px;
+  border: brown 10px outset;
+  border-radius: 22px;
+}
+
+#index p {
+  color: white;
+  font-family: "brakingFont";
+  font-size: 30px;
+}
+
+/*
+------------------------------------
+CSS DE WEB TABLA PERIODICA
+------------------------------------
+*/
+#tabla_periodica {
+  background-color: #0c3e11;
+}
+
+table {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2b2c24;
+  empty-cells: hide;
+  border-spacing: 6px;
+}
+td {
+  width: 60px;
+  height: 50px;
+}
+td img {
+  max-width: 100%;
+  max-height: 100%;
+}
+td b {
+  font-size: 300%;
+  color: #2b2c24;
+}
+td {
+  font-size: 9px;
+}
+#hank {
+  width: 60px;
+  height: 110px;
+  background-color: rgb(184, 224, 19);
+}
+#hank img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+}
+
+.walt_family {
+  background-color: rgb(184, 224, 19);
+}
+
+.adicional {
+  background-color: rgb(211, 223, 122);
+}
+
+.morado {
+  background-color: rgb(171, 143, 204);
+}
+
+.blanco {
+  background-color: rgb(239, 246, 202);
+}
+
+.operations {
+  background-color: rgb(137, 164, 25);
+}
+.friends {
+  background-color: rgb(99, 112, 40);
+}
+.salamanca {
+  background-color: rgb(197, 225, 77);
+}
+.gus {
+  background-color: rgb(188, 195, 160);
+}
+.uncle {
+  background-color: rgb(130, 140, 82);
+}
+
+#tablaux td {
+  background-color: rgb(194, 198, 41);
+}
+
+/*
+--------------------------------
+CSS DE WEB FORMULARIO
+--------------------------------
+*/
+
+#titulo {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #0008ffcd;
+  background-color: #00000025;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: inline-block;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgba(37, 37, 37, 0.268);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: none;
+  padding: 10;
+  margin: 0 0 20px;
+}
+label {
+  font-weight: bold;
+}
+legend {
+  font-weight: bold;
+  color: #01291b;
+  background-color: #cacacab5;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="date"] {
+  width: 50%;
+  padding: 5px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="file"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="reset"] {
+  background-color: #88160e;
+}
+input[type="file"] {
+  background-color: #885b0e;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+input[type="reset"]:hover {
+  background-color: #64100a;
+}
+
+textarea {
+  resize: vertical;
+}
